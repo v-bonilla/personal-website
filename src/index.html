@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Victor Bonilla website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="welcome">
+    <p id="welcome-message">Welcome to Víctor's website! Click in a field to see more information</p>
+</div>
+<div id="json">
+    <!-- Contact details -->
+    <span>{</span>
+    <span id="name">"name": "Víctor Bonilla"</span>
+    <span id="linkedin">
+            "linkedin": "<a href="http://www.linkedin.com/in/victorbonillapardo">http://www.linkedin.com/in/victorbonillapardo</a>"
+        </span>
+    <span id="github">
+            "github": "<a href="https://github.com/v-bonilla">GitHub</a>"
+        </span>
+    <span id="gitlab">
+            "gitlab": "<a href="https://gitlab.com/victor.bonilla">GitLab</a>"
+        </span>
+
+    <!-- Education section -->
+    <div id="education">
+        <span>"education": {</span>
+
+        <div id="bachelor">
+            <span>"bachelor": {</span>
+            <span id="bachelor-degree">"bachelor-degree": "Computer Engineering"</span>
+            <span id="university">"university": "Technical University of Madrid"</span>
+            <div id="relevant-bachelor-courses">
+                <span>"relevant-courses": {</span>
+                <span>"course": "Data Mining"</span>
+                <span>"course": "Web Application Design"</span>
+                <span>}</span>
+            </div>
+            <div id="bachelor-thesis">
+                <span>"bachelor-thesis": {</span>
+                <span>"title": "Machine Learning with TensorFlow"</span>
+                <span>"link": "<a href="http://oa.upm.es/49683/">http://oa.upm.es/49683/</a>"</span>
+                <span>"github-repository": "<a href="https://github.com/v-bonilla/machine-learning-with-tensorflow_bachelor-thesis">https://github.com/v-bonilla/machine-learning-with-tensorflow_bachelor-thesis</a>"</span>
+                <span>}</span>
+            </div>
+            <div id="erasmus">
+                <span>"erasmus": {</span>
+                <span id="location">"location": "Prague, Czech Republic"</span>
+                <span id="erasmus-university">"university": "Czech Technical University"</span>
+                <div id="relevant-erasmus-courses">
+                    <span>"relevant-courses": {</span>
+                    <span>"course": "Economic and Management Principles"</span>
+                    <span>"course": "Data Preprocessing"</span>
+                    <span>}</span>
+                </div>
+                <span>}</span>
+            </div>
+            <span>}</span>
+        </div>
+
+        <span>}</span>
+    </div>
+    <span>}</span>
+</div>
+
+</body>
+</html>
